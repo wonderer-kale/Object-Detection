@@ -48,7 +48,7 @@ int main() {
 					m[i].push_back(' ');
 				else if (s[j - 1] == '+' && s[j - 2] != 'e' && s[j] != ' ' && s[j] != '=')
 					m[i].push_back(' ');
-				else if (s[j - 1] == '-' && s[j - 2] != 'e' && s[j] != ' ' && s[j] != '=')
+				else if (s[j - 1] == '-' && s[j - 2] != 'e' && s[j - 2] != '[' && s[j] != ' ' && s[j] != '=' && s[j] != '>')
 					m[i].push_back(' ');
 				else if (s[j - 1] == '>' && s[j] != ' ' && s[j] != '=')
 					m[i].push_back(' ');
@@ -73,9 +73,9 @@ int main() {
 					m[i].push_back(' ');
 				else if (s[j + 1] == '+' && s[j] != 'e' && s[j] != ' ')
 					m[i].push_back(' ');
-				else if (s[j + 1] == '-' && s[j] != 'e' && s[j] != ' ')
+				else if (s[j + 1] == '-' && s[j] != 'e' && s[j] != ' ' && s[j] != '[')
 					m[i].push_back(' ');
-				else if (s[j + 1] == '>' && s[j] != ' ')
+				else if (s[j + 1] == '>' && s[j] != ' ' && s[j] != '-')
 					m[i].push_back(' ');
 				else if (s[j + 1] == '<' && s[j] != ' ')
 					m[i].push_back(' ');
