@@ -1,0 +1,12 @@
+1. Single Rectangle
+    IoU: 0.83
+2. Two Rectangles
+    IoU: 0.51
+3. Multiple Rectangles
+    IoU: 0.47
+4. Two Rectangles or Triangles
+    IoU: 0.47
+5. Multiple Rectangles or Triangles
+    IoU: 0.44
+6. Colored Multiple Shapes
+    IoU: 0.43
